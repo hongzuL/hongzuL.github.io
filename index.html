@@ -56,7 +56,7 @@
             <h1 class="cover-heading">Cover your page.</h1>
             <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
             <p class="lead">
-              <a href="http://getbootstrap.com/examples/cover/#" class="btn btn-lg btn-default">Learn more</a>
+                <p class="btn btn-lg btn-default" onclick="popupWarning()">This does nothing</p>
             </p>
           </div>
 
@@ -81,5 +81,12 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./Cover Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
   
-
+    <script>
+        function popupWarning() {
+            var x;
+            if (confirm("Told you not to that button does nothing, you just wouldn't listen!!!") == true) {
+            } else {
+            }
+        }
+    </script>
 </body></html>
